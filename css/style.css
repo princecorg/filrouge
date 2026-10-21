@@ -1,0 +1,44 @@
+body {
+    background: black;
+    color: white;
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-bottom: 1px solid rgb(81, 81, 125);
+}
+
+#photographe {
+     text-transform: uppercase;
+}
+
+#photographe span {
+    color: rgb(14, 177, 14);
+}
+
+header nav span{
+    margin: 10px;
+}
+
+/* Les polices */
+.yeseva-one-regular {
+  font-family: "Yeseva One", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+@media all and (max-width: 767px) {
+    header {
+        flex-direction: column;
+    }
+}
